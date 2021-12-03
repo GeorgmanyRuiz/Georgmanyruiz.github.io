@@ -1,0 +1,111 @@
+html {
+  background: rgb(188,189,189);
+  background: -webkit-linear-gradient(53deg, rgba(188,189,189,1) 18%, rgba(255,255,255,1) 67%);
+  background: -o-linear-gradient(53deg, rgba(188,189,189,1) 18%, rgba(255,255,255,1) 67%);
+  background: linear-gradient(143deg, rgba(188,189,189,1) 18%, rgba(255,255,255,1) 67%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+
+.container1 {
+  display: block;
+  margin: 50px;
+  padding: 50px;
+  align-items: center;
+}
+
+
+h2 {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 5em;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+h2:hover {
+  cursor: default;
+}
+
+h2 a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+h2 span {
+  background: -webkit-linear-gradient(bottom left, #09009f, #00ff95 80%);
+  background: -o-linear-gradient(bottom left, #09009f, #00ff95 80%);
+  background: linear-gradient(to top right, #09009f, #00ff95 80%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 2px rgba(100, 100, 100, 0.5);
+  transition: .40s ease-in-out;
+}
+
+h2 a span:hover {
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.btm1 {
+  padding-left: 195px;
+  margin-left: 195px;
+  border: 3px solid rgba(50, 50, 50, 0.2);
+  border-radius: 100%;
+  box-shadow: 0 0 30px 1px rgba(50, 50, 50, 0.2);
+  width: 570px;
+}
+
+
+.shadow p {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 3em;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  transition: .40s ease-in-out;
+}
+
+.shadow p span {
+  transition: .40s ease-in-out;
+
+}
+
+.shadow p span:hover {
+  background: -webkit-linear-gradient(bottom left, #09009f, #00ff95 80%);
+  background: -o-linear-gradient(bottom left, #09009f, #00ff95 80%);
+  background: linear-gradient(to top right, #09009f, #00ff95 80%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: default;
+}
+
+@media screen and (max-width: 800px) {
+
+  h2, .shadow p {
+    font-weight: 200;
+    font-size: 2em;
+  }
+
+  .btm1 {
+    padding-left: 10px;
+    margin-left: 10px;
+    border: 3px solid rgba(50, 50, 50, 0.2);
+    border-radius: 100%;
+    box-shadow: 0 0 30px 1px rgba(50, 50, 50, 0.2);
+    width: 210px;
+  }
+
+}
